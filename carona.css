@@ -1,8 +1,74 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 126, 6, 1) 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
 h1 {
   text-align: center;
   margin-top: 5%;
+  color: #03045e;
+  text-decoration: solid;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h3 {
   text-align: center;
+  color: #03045e;
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+}
+
+.texto {
+  margin-top: 15%;
+}
+
+.rodape {
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.download {
+  margin-top: 30%;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 10px;
+}
+
+#e {
+  vertical-align: middle;
+}
+
+legend {
+  text-decoration: solid;
+}
+
+.a:hover {
+  cursor: pointer;
+  color: red;
 }
